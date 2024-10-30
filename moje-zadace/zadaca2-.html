@@ -54,23 +54,28 @@
         </tr>
     </table>
     <br>
-    <tr>OBBRAZAC ZA PRIJAVU</tr>
-    <br>
+    <h3>OBBRAZAC ZA PRIJAVU</h3>
     <br>
     <form action="" method="get">
         <label for="name">Unesi svoje ime:</label>
-        <input type="text" id="name"name="name"> <br>
+        <input type="text" id="name"name="name" placeholder="unesi ime..." maxlength="20" size="20"> <br>
         <label for="Prezime">Unesi prezime:</label>
         <input type="text" name="prezime" id="prezime" placeholder="unesi prezime..." maxlength="20" size="20">
         <br>
         <label>Unesi password:</label>
-        <input type="password" maxlength="20"> <br>
+        <input type="password" name="password" id="password" placeholder="unesi lozinku..." maxlength="20" size="20"> <br>
         <label for="">Izaberi ulogu:</label><br>
    <input type="radio" name="uloga" id="Admin" value="Admin">
    <label for="Admin">Admin</label><br>
    <input type="radio" name="uloga" id="guest" value="guest">
    <label for="guest">Guest</label><br>
    <br>
+   <label>Prihvaćam uvjete korištenja</label><br>
+   <input type="checkbox" name="prihvat" id="prihvat">
+   <label for="prihvat">da</label><br>
+   <input type="checkbox" name="ne" id="ne">
+   <label for="ne">ne</label><br>
+<br>
    <input type="submit" value="submit">
    <input type="reset" value="reset"> <br>
    <br>
